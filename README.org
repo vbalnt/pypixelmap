@@ -4,8 +4,7 @@ A simple script that illustrates an array of random pixels, along with their int
 
 Example plots are given both for *rgb* and *grayscale* images. 
 
-
-To excecute, run =python pypixelsmaps.py=. 
+To execute, run =python pypixelsmaps.py=. 
 
 To change file filetype of the visualisation output (e.g to =png=) change the filenames in the following lines. 
 
