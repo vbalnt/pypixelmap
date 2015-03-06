@@ -7,7 +7,13 @@ Example plots are given both for *rgb* and *grayscale* images.
 
 To excecute, run =python pypixelsmaps.py=. 
 
-To change 
+To change file type of the visualisation output (e.g to =pdf=) change the filenames in the following lines. 
 
+#+begin_src python
+render_pixel_map(gray, number_of_lines_to_draw =5, filename_to_save = 'pixelmap_gray.png')
+render_pixel_map(rgb ,number_of_lines_to_draw =5, filename_to_save = 'pixelmap_rgb.png')
+#+end_src
 
-
+Example visualisation outputs:
+[[pixelmap_rgb.png]]
+[[pixelmap_gray.png]]
