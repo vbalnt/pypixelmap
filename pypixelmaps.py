@@ -90,8 +90,8 @@ def render_pixel_map(image,number_of_lines_to_draw,filename_to_save):
 def main():
     gray = np.random.randint(0,255,(10,10))
     rgb = np.random.randint(0,255,(10,10,3))
-    render_pixel_map(gray, number_of_lines_to_draw =5, filename_to_save = 'pixelmap_gray.png')
-    render_pixel_map(rgb ,number_of_lines_to_draw =5, filename_to_save = 'pixelmap_rgb.png')
+    render_pixel_map(gray, number_of_lines_to_draw =5, filename_to_save = 'pixelmap_gray.pdf')
+    render_pixel_map(rgb ,number_of_lines_to_draw =5, filename_to_save = 'pixelmap_rgb.pdf')
 
 
 if __name__ == "__main__":
